@@ -1,5 +1,7 @@
 import './App.css';
+import { Outlet, Routes, Route } from "react-router-dom"
 import Nav from "./components/Nav"
+import Footer from "./components/Footer"
 import MainPage from './pages/MainPage';
 import DetailPage from './pages/DetailPage';
 import SearchPage from './pages/SearchPage';
